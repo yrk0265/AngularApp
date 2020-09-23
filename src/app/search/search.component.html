@@ -1,0 +1,10 @@
+    <h5 class="card-header">Search</h5>
+    <div class="card-body">
+      <div class="input-group">
+        <input #searchtxt type="text" name="searchtxt" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" type="button" (click)="searchPost(searchtxt.value)"> Go! </button>
+        </span>
+      </div>
+    </div>
+
